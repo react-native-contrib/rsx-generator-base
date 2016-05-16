@@ -5,5 +5,9 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "postinstall": "rnpm link"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.25.1"
   }
 }

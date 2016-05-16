@@ -60,7 +60,7 @@ module.exports = generator.Base.extend({
       return;
     }
 
-    this.npmInstall('react@~0.14', { '--save': true });
-    this.npmInstall('react-native', { '--save': true });
+    this.spawnCommandSync('git', ['init'], { cwd: this.destinationPath() });
+    this.npmInstall();
   }
 });

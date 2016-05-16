@@ -1,6 +1,6 @@
 {
   "name": "rsx-generator-base",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Yeoman generator for a bare React Native project",
   "main": "index.js",
   "scripts": {
